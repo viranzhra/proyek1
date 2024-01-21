@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="../../proyek1/pemeriksaan.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="icon" href="../../proyek1/user/images/logo klinik.png">
+    <title>Imunisasi</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="v259_40">
+        <div class="v259_41">
+            <div class="v259_42">
+                <div class="v259_43"><span class="v259_44">Pendaftaran Pemeriksaan Imunisasi</span></div>
+                <div class="v259_45">
+                <form method="POST" action="nifas.php" id="form-pendaftaran">
+                <label for="nama">Nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama" required>
+                    <br><br>
+                    <label for="ttl">Tanggal Daftar : </label>
+                    <input type="date" id="tanggal_daftar" name="tanggal_daftar">
+                    <br><br>
+                    <label for="ttl">Tanggal Lahir &nbsp;&nbsp;&nbsp;: </label>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+                    <br><br>
+                    <label for="alamat">Alamat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                    <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat" required>
+                    <br><br>
+                    <label for="telp">Telepon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;: </label>
+                    <input type="text" id="telp" name="telp" placeholder="Masukkan nomor telepon" required>
+                    <br><br>
+                </form>
+                </div>
+            </div>
+        
+            <button type="button" name="daftar" form="form-pendaftaran" id="daftar-button">Daftar</button>
+            <a name="kembali" href="pm_nifas.php">Kembali</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var daftarButton = document.getElementById("daftar-button");
+            daftarButton.addEventListener("click", function(e) {
+                e.preventDefault();
+                Swal.fire({
+                    icon: "question",
+                    title: "Apakah Anda ingin melanjutkan pendaftaran?",
+                    text: "Tekan 'Ya' untuk melanjutkan atau 'Tidak' untuk membatalkan.",
+                    showCancelButton: true,
+                    cancelButtonText: "Tidak",
+                    confirmButtonText: "Ya"
+                }).then(function(result) {
+                    if (result.isConfirmed) {
+                        // Lanjutkan pendaftaran
+                        document.getElementById("form-pendaftaran").submit();
+                    } else {
+                        // Tetap di halaman sebelumnya
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

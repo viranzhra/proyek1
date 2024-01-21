@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+    <link rel="shortcut icon" type="icon" href="images/logo klinik.png">
+    <link rel="stylesheet" href="registrasi.css">
+    <script src="script.js"></script>
+</head>
+    <body>
+        <div class="form-container">
+        <form method="POST" action="register.php">
+            <div class="form-group">
+            <h1>REGISTRASI</h1>
+    
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Masukkan username" name="username" required><br><br>
+    
+            <label for="email">Email : </label>
+            <input type="text" id="email" placeholder="Masukkan email" name="email" required><br><br>
+    
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="Masukkan Password" name="password" required><br>
+            <div class="checkbox">
+                <input type="checkbox" onclick="myFunction()">Tampilkan Password<br><br>
+            </div>
+            <br>
+    
+            <input type="submit" name="register" value="Registrasi">
+            <div class="login">
+                <a name="kembali" href="Landing page.html">Kembali</a>
+            </div>
+            <br><br>
+            <div class="register">
+                Sudah punya akun? <a href="Login klien.html">Login</a>
+            </div>
+            </div>
+        </div>
+        </form>
+        </div>
+    </body>
+</html>

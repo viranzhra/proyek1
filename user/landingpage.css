@@ -1,0 +1,946 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.desktop-8 {
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 1450px;
+    margin: auto;
+    margin-right: 1000px;
+}
+
+a {
+    text-decoration: none;
+    color: #2831d8;
+    font-size: 16px;
+}
+
+a[name='register'] {
+    color: #ffff;
+    font-size: 26px;
+}
+
+.hidden, .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+
+}
+.overlap-group1 { 
+    height: 55px;
+    margin-left: 166px;
+    margin-top: 20px;
+    position: relative; 
+    width: 245px;
+}
+.rectangle-55 {
+    background-color: #ff0000;
+    border-radius: 19px;
+    height: 54px;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 150px;
+    width: 245px;
+}
+.registrasi {
+    color: var(--white);
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 700;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 160px;
+}
+.overlap-group {
+    height: 2338px;
+    margin-top: 220px;
+    position: relative;
+    width: 1450px;
+}
+.rectangle-71 {
+    background-color: #f2f2f2;
+    height: 739px;
+    left: 0;
+    position: absolute;
+    top: 704px;
+    width: 1450px;
+}
+.rectangle-73 {
+    background-color: #D9D9D9;
+    height: 501px;
+    left: 370px;
+    position: absolute;
+    top: 892px;
+    width: 320px;
+    border-radius: 10px;
+}
+.screenshot_2023-03-0-1 {
+    height: 503px;
+    left: px;
+    object-fit: cover;
+    position: absolute;
+    top: 1835px;
+    width: 600px;
+}
+.klinik-bidan-susan-melayani {
+    color: black;
+    font-family: var(--font-family-poppins);
+    font-size: 30px;
+    font-weight: 700px;
+    left: 595px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 738px;
+
+}
+.pemeriksaan-bayi-dan-ballita {
+    left: 440px;
+    position: absolute;
+    text-align: center;
+    top: 919px;
+    font-size: 20px;
+    color: #0a6890;
+}
+.more-info {
+    left: 117px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1796px;
+}
+.pemeriksaan-ibu-hamil {
+    left: 45px;
+    top: 919px;
+    font-size: 20px;
+    color: #0a6890;
+}
+.desktop-8 .pemeriksaan-ibu {
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+}
+.rectangle-72 {
+    background-color: #D9D9D9;
+    height: 501px;
+    left: 20px;
+    position: absolute;
+    top: 892px;
+    width: 315px;
+    border-radius: 10px;
+}
+.rectangle-70 {
+    background-color: var(--white);
+    border-radius: 15px;
+    height: 379px;
+    left: 1020px;
+    position: absolute;
+    top: 274px;
+    width: 414px;
+}
+.rectangle-75 {
+    background-color: #D9D9D9;
+    height: 501px;
+    left: 1085px;
+    position: absolute;
+    top: 892px;
+    width: 326px;
+    border-radius: 10px;
+}
+.setiap-ibu-hamil-dis { 
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1000px;
+    width: 280px;
+    text-align: center;
+}
+.imunisasi-anak-adala{ 
+    left: 1120px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1000px;
+    width: 250px;
+    text-align: center;
+}
+.ellipse-5 {
+    background-color: var(--alto); border-radius: 175.5px/159.5px; height: 319px;
+    left: 91px;
+    position: absolute; top: 1982px; width: 351px;
+}
+.rectangle-69 {
+    background-color: #b1d4e5;
+    height: 686px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 1450px;
+}
+.ellipse-2 {
+    background-color: var(--blue-violet);
+    border-radius: 112.5px;
+    height: 225px;
+    left: 68px;
+    position: absolute;
+    top: 574px;
+    width: 225px;
+}
+.screenshot_2023-03-0 {
+    height: 653px;
+    left: 748px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 650px;
+}
+.pemeriksaan-fisik-ba {
+    left: 390px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1008px;
+    width: 280px;
+    text-align: center;
+}
+.pemeriksaan-ibu-nifas {
+    left: 775px;
+    top: 920px;
+    width: 232px;
+    font-size: 20px;
+    color: #0a6890;
+    
+}
+.title {
+    left: 400px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1580px;
+}
+    .span1 {
+    color: var(--black);
+    font-family: var(--font-family-poppins); 
+    font-size: var(--font-size-xxx1);
+    font-weight: 400;
+}
+    .ellipse-4 {
+    background-color: var(--blue-violet);
+    border-radius: 46.5px/48.5px;
+    height: 97px;
+    left: 293px;
+    position: absolute;
+    top: 543px;
+    width: 93px;
+    }
+.rectangle-77 {
+    background-color: var(--blue-violet);
+    height: 547px;
+    left: 0;
+    position: absolute;
+    top: 1791px;
+    width: 1450px;
+}
+.rectangle-74 {
+    background-color: #D9D9D9;
+    height: 501px;
+    left: 725px;
+    position: absolute;
+    top: 890px;
+    width: 320px;
+    border-radius: 10px;
+}
+.ellipse-3 {
+    background-color: var(--blue-violet);
+    border-radius: 78.5px; 
+    height: 157px; 
+    left: 293px;
+    position: absolute;
+    top: 681px;
+    width: 157px;
+}
+.phone {
+    left: 597px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 2040px;
+}
+
+.biodata-bidan-susan {
+    border-radius: 15px;
+    left: 500px;
+    position: absolute;
+    top: 50px;
+    width: 414px;
+    text-align: center;
+    font-size: 40px;
+    color: #196359;
+    font-family: emoji;
+    font-weight: bold;
+    
+}
+.ellipse-6 {
+    background-color: var(--white);
+    border-radius: 112.5px;
+    height: 225px;
+    left: 1200px;
+    position: absolute;
+    top: 1679px;
+    width: 225px;
+}
+.nama-susan-susilaw {
+    color: var(--black);
+    
+    font-size: 25px;
+    font-weight: 700;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 188px;
+}
+.jl-pahlawan-04-sin {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 25px;
+    font-weight: 700;
+    left: 597px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1895px;
+    width: 800px;
+}
+.pemeriksaan-yang-dil {
+    left: 750px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1005px;
+    width: 270px;
+    text-align: center;
+}
+.imunisasi {
+    left: 1200px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 926px;
+    color: #0a6890;
+}
+.rectangle-76 {
+    background-color: #33c6bb;
+    height: 357px;
+    left: 0;
+    position: absolute;
+    top: 1440px;
+    width: 1450px;
+}
+.ellipse-7 {
+    background-color: var(--white);
+    border-radius: 46.5px;
+    height: 93px;
+    left: 1100px;
+    position: absolute;
+    top: 1811px;
+    width: 93px;
+}
+.overlap-group2 {
+    align-items: flex-end;
+    align-self: flex-end;
+    background-color: #c5e9ffb2;
+    border-radius: 19px;
+    display: flex;
+    gap: 28px;
+    height: 50px;
+    justify-content: flex-end;
+    margin-right: 17px;
+    margin-top: 26px;
+    min-width: 335px;
+    
+}
+.place {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 50px;
+    width: 64px;
+}
+.desktop-8 .login {
+    cursor: pointer;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: 3px;
+    min-height: 50px;
+}
+.login-admin {
+    width: 144px;
+}
+.login-pasien {
+    width: 147px;
+}
+
+/* Variables global*/
+:root {
+    --black-2:rgba(0, 0, 0, 0.8);
+    --black: rgba(0, 0, 0, 1);
+    --blue-green: rgba(12, 144, 201, 1);
+    --licorice: rgba(19, 18, 18, 1);
+    --dodger-blue: rgba(37, 174, 250, 0.439); 
+    --malachite: rgba(39, 218, 111, 1); 
+    --picton-blue-2: rgba(65, 202, 245, 0.502); 
+    --river-bed: rgba(70, 76, 93, 0.8); 
+    --picton-blue: rgba(71, 181, 228, 1); 
+    --emperor: rgba(82, 75, 75, 1); 
+    --blue-violet: rgba(97, 77, 180, 1); 
+    --blue-violet-2: rgba(102, 80, 229, 1); 
+    --pewter-blue: rgba(134, 173, 178, 1); 
+    --cornflower: rgba(153, 214, 248, 0.369); 
+    --blizzard-blue: rgba(160, 217, 242, 1); 
+    --shady-lady: rgba(169, 169, 170, 1); 
+    --regent-st-blue: rgba(170, 206, 227, 0.4); 
+    --mabel: Irgba(215, 239, 253, 1); 
+    --alto: Irgba(217, 217, 217, 1);
+    --link-water:rgba(221, 236, 244, 1);
+    --romance: rgba(253, 253, 253, 0.2); 
+    --white-2: rgba(255, 255, 255, 0.671);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxxs: 16px;
+    --font-size-xxxs: 20px;
+    --font-size-xxs: 22px;
+    --font-size-xs: 24px;
+    --font-size-s: 25px;
+    --font-size-m: 26px;
+    --font-size-1: 30px;
+    
+    --font-family-inter: "Inter";
+    --font-family-inter-bold: "Inter-Bold";
+    --font-family-inter-regular: "Inter-Regular";
+    --font-family-poppins: "Poppins";
+    --font-family-poppins-medium: "Poppins-Medium"; 
+    --font-family-poppins-regular: "Poppins-Regular";
+}
+
+/* Classes */
+.inter-regular-normal-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular); 
+    font-size: var(--font-size-xxxs);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-bold-white-45px {
+    color: var(--white);
+    font-family: var(--font-family-inter-bold);
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-normal-link-water-45px {
+    color: var(--link-water);
+    font-family: var(--font-family-inter);
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold-blue-violet-20px {
+    color: var(--blue-violet-2);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+    .inter-regular-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular); 
+    font-size: var(--font-size-xxxxs);
+    font-weight: 400;
+    font-style: normal;
+}
+    .poppins-medium-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-poppins); 
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-black-26px {
+    color: var(--black);
+    font-family: var(--font-family-inter-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-white-28px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-emperor-16px {
+    color: var(--emperor);
+    font-family:
+    var(--font-family-inter-bold);
+    font-size: var(--font-size-xxxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-regular-normal-black-15px {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-blue-green-15px {
+    color: var(--blue-green);
+    font-family: var(--font-family-poppins);
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-white-26px {
+    color: var(--white);
+    font-family:
+    var(--font-family-inter-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-white-35px {
+color: var(--white);
+font-family: var(--font-family-inter);
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+}
+.poppins-bold-black-20px {
+
+font-size: var(--font-size-xxxs);
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-white-45px {
+color: var(--white);
+font-family: var(--font-family-inter);
+font-size: 45px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-white-40px {
+color: var(--white);
+font-family: var(--font-family-inter);
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-normal-black-15px {
+color: var(--black);
+font-family: var(--font-family-inter);
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+}
+.inter-normal-black-26px {
+color: var(--black);
+font-family: var(--font-family-inter); 
+font-size: var(--font-size-m);
+font-weight: 400;
+font-style: normal;
+}
+.inter-bold-black-20px {
+color: var(--black);
+font-family: var(--font-family-inter-bold); 
+font-size: var(--font-size-xxxs);
+font-weight: 700;
+font-style: normal;
+}
+
+.inter-normal-black-26px {
+color: var(--black);
+font-family: var(--font-family-inter); 
+font-size: var(--font-size-m);
+font-weight: 400;
+font-style: normal;
+}
+.inter-bold-black-20px {
+color: var(--black);
+font-family: var(--font-family-inter-bold); 
+font-size: var(--font-size-xxxs);
+font-weight: 700;
+font-style: normal;
+}
+
+.inter-normal-black-26px {
+color: var(--black);
+font-family: var(--font-family-inter); 
+font-size: var(--font-size-m);
+font-weight: 400;
+font-style: normal;
+}
+.inter-bold-black-20px {
+color: var(--black);
+font-family: var(--font-family-inter-bold); 
+font-size: var(--font-size-xxxs);
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-medium-black-22px {
+color: var(--black);
+font-family: var(--font-family-poppins-medium); 
+font-size: var(--font-size-xxs);
+font-weight: 500;
+font-style: normal;
+}
+.inter-normal-black-16px {
+color: var(--black);
+font-family: var(--font-family-inter); 
+font-size: var(--font-size-xxxxs);
+font-weight: 400;
+font-style: normal;
+}
+.inter-bold-white-28px {
+color: var(--white);
+font-family: var(--font-family-inter-bold);
+font-size: 28px;
+font-weight: 700;
+font-style: normal;
+}
+.poppins-medium-black-20px {
+color: #0e8f9d;
+font-family: var(--font-family-poppins); 
+font-size: var(--font-size-xxxs);
+font-weight: 500;
+font-style: normal;
+}
+.inter-bold-white-24px {
+color: var(--white);
+font-family: var(--font-family-inter-bold); 
+font-size: var(--font-size-xs);
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-white-40px {
+color: var(--white);
+font-family: var(--font-family-inter-bold);
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+}
+.poppins-bold-white-50px {
+color: var(--white);
+font-family: var(--font-family-poppins);
+font-size: 50px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-normal-black-20px {
+color: var(--black);
+font-family: var(--font-family-inter); 
+font-size: var(--font-size-xxxs);
+font-weight: 400;
+font-style: normal;
+}
+.inter-bold-black-36px {
+color: var(--black);
+font-family: var(--font-family-inter-bold);
+font-size: 36px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-white-35px {
+color: var(--white);
+font-family: var(--font-family-inter-bold);
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+}
+.poppins-bold-white-32px {
+color: var(--white);
+font-family: var(--font-family-poppins);
+font-size: 32px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-black-36px {
+color: var(--black);
+font-family: var(--font-family-inter);
+font-size: 36px;
+font-weight: 700;
+font-style: normal;
+}
+.inter-bold-white-24px {
+    color: var(--white);
+    font-family:
+    var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;
+    font-family:
+    var(--font-family-poppins);
+}
+    .poppins-bold-white-15px {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+    .inter-bold-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter-bold);
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-black-25px { color: var(--black);
+        font-family: var(--font-family-inter); 
+        font-size: var(--font-size-s);
+        font-weight: 700;
+        font-style:
+        normal;
+}
+.inter-regular-normal-white-26px {
+        color: var(--white);
+        font-family:
+        var(--font-family-inter-regular);
+        font-size: var(--font-size-m);
+        font-weight: 400;
+        font-style: normal;
+}
+.poppins-bold-white-27px {
+        color: var(--white);
+        font-family: var(--font-family-poppins);
+        font-size: 27px;
+        font-weight: 700;
+        font-style: normal;
+}
+.poppins-bold-white-28px {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 28px;
+    font-weight: 700;
+    font-style: normal;
+        }
+.inter-normal-white-26px {
+    color: var(--white);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-bold-white-25px {
+    color: var(--white);
+    font-family: var(--font-family-inter-bold);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-bold); 
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-alto-36px {
+    color: var(--alto);
+    font-family: var(--font-family-poppins);
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-white-26px {
+    color: var(--white);
+    font-family:
+    var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-white-20px {
+    color: var(--white);
+    font-family:
+    var(--font-family-poppins);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-black-25px { 
+    color: var(--black);
+    font-family: var(--font-family-inter-bold); 
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-regular-normal-black-26px {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular); 
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-poppins-bold);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-inter-bold); 
+    font-size: var(--font-size-xxxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+    .inter-bold-black-26px {
+    color: var(--black);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+    .inter-bold-white-25px {
+    color: var(--white);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-medium-black-22px {
+    color: var(--black);
+    font-family:
+    var(--font-family-poppins);
+    font-size: var(--font-size-xxs);
+    font-weight: 500;
+    font-style:
+    normal;
+}
+.inter-regular-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter-regular); 
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-bold-emperor-16px {
+    color: var(--emperor);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-xxxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-regular-normal-link-water-45px {
+    color: var(--link-water);
+    font-family: var(--font-family-inter-regular);
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-regular-normal-shady-lady-24px {
+    color: var(--shady-lady);
+    font-family: var(--font-family-inter-regular);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-normal-black-24px {
+    color: var(--black);
+    font-family: var(--font-family-inter); 
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-medium-black-24px {
+    color: var(--black);
+    font-family:
+    var(--font-family-poppins-medium);
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-bold-black-50px {
+    color: rgba(97, 77, 180, 1);
+    font-family: var(--font-family-poppins-bold);
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+.inter-normal-shady-lady-24px {
+    color: var(--shady-lady);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-bold-white-16px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxxs);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.icon-destination {
+    height: 78px;
+    left: 491px;
+    position: absolute;
+    top: 1897px;
+    width: 77px;
+}
+.icon-whatsapp {
+    height: 65px;
+    left: 500px;
+    position: absolute;
+    top: 2026px;
+    width: 65px;
+}

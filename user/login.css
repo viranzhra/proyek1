@@ -1,0 +1,108 @@
+*{
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+}
+body{
+    background-image: url('images/background registrasi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    width: 230px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    background: rgba(66, 200, 240, 0.5);
+    opacity: 0.8;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.4);
+    border-radius: 10px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#username, #password, #email, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f2eded;
+}
+
+.checkbox {
+    width: 0 auto;
+    font-size: 16px;
+    color: white;
+}
+
+button[name="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #22a0b9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a[name="kembali"] {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.0);
+    color: #5cd7f0;
+    font-size: 16px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+a[name="submit"] {
+    width: 30%;
+    padding: 10px;
+    background-color: #22a0b9;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input[name="kembali"] {
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(0,0,0, 0.0);
+    color: #5cd7f0;
+    font-size: 16px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center!important;
+    color: white
+}
+
+a {
+    color: rgb(0, 213, 255);
+    text-decoration: none;
+}
